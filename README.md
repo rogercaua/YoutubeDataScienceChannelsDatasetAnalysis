@@ -13,6 +13,7 @@ project_folder/
 ├── channel_growth.csv # Crescimento de visualizações por canal 
 ├── analiseDeDadosYoutube.ipynb # Notebook principal de análise 
 ├── requirements.txt # Dependências do projeto
+├── dataset_analysis_powerbi.pbix # Este é o arquivo do Power BI, que contém as visualizações e relatórios baseados nos dados processados. 
 
 
 ## Descrição dos Arquivos
@@ -26,6 +27,8 @@ project_folder/
 - **`views_by_topic.csv`**: Dados sobre a quantidade de visualizações por tópico, útil para análise no Power BI.
 
 - **`channel_growth.csv`**: Contém informações sobre o crescimento das visualizações de cada canal, comparando os valores de visualizações no início e no final do período analisado.
+  
+- - **`YouTubeDataScienceChannelsDataSetAnalisys.pbit`**: Este é o arquivo do Power BI, que contém as visualizações e relatórios baseados nos dados processados. Pode ser aberto diretamente no Power BI Desktop para gerar gráficos e insights interativos.
 
 - **`requirements.txt`**: Lista todas as dependências do Python necessárias para rodar o projeto. Para instalar as dependências, execute:
 
@@ -56,4 +59,23 @@ pandas: Para manipulação e análise de dados.
 matplotlib: Para visualização dos dados.
 jupyter: Para executar os notebooks.
 seaborn (opcional): Para gráficos mais elaborados (caso use).
+Instale as dependências utilizando o arquivo requirements.txt.
+```
+### 2. Executar a Análise
+
+A análise é realizada no notebook analiseDeDadosYoutube.ipynb. Você pode abrir e executar as células diretamente em um ambiente Jupyter Notebook ou JupyterLab:
+```bash
+jupyter notebook analiseDeDadosYoutube.ipynb
+```
+
+### 3. Gerar os Relatórios
+
+Após a execução do notebook, os arquivos CSV (processed_youtube_data.csv, views_by_topic.csv, e channel_growth.csv) serão gerados. Esses arquivos podem ser usados para criar visualizações adicionais ou serem importados para o Power BI para análise mais profunda.
+
+### Dependências
+pandas: Para manipulação e análise de dados.
+matplotlib: Para visualização dos dados.
+jupyter: Para executar os notebooks.
+seaborn (opcional): Para gráficos mais elaborados (caso use).
+
 Instale as dependências utilizando o arquivo requirements.txt.
