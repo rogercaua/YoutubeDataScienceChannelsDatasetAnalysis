@@ -8,11 +8,17 @@ A estrutura do projeto é a seguinte:
 
 project_folder/ 
 ├── Youtube_dataset_all_dataScience_channels.csv # Conjunto de dados original 
+
 ├── views_by_topic.csv # Dados de visualizações por tópico para Power BI 
+
 ├── processed_youtube_data.csv # Dados processados para Power BI 
+
 ├── channel_growth.csv # Crescimento de visualizações por canal 
+
 ├── analiseDeDadosYoutube.ipynb # Notebook principal de análise 
+
 ├── requirements.txt # Dependências do projeto
+
 ├── dataset_analysis_powerbi.pbix # Este é o arquivo do Power BI, que contém as visualizações e relatórios baseados nos dados processados. 
 
 
@@ -74,8 +80,11 @@ Após a execução do notebook, os arquivos CSV (processed_youtube_data.csv, vie
 
 ### Dependências
 pandas: Para manipulação e análise de dados.
+
 matplotlib: Para visualização dos dados.
+
 jupyter: Para executar os notebooks.
+
 seaborn (opcional): Para gráficos mais elaborados (caso use).
 
 Instale as dependências utilizando o arquivo requirements.txt.
